@@ -1,0 +1,220 @@
+.about{
+    margin-bottom: 100px;
+}
+
+.heading{
+    font-size: 3em;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #20B2AA;
+}
+
+.head{
+    font-size: 2em;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BC8F8F;
+}
+
+.box{
+    border-left: 3px solid #008080;
+    width: 65%;
+}
+
+.lines{
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: "Marcellus", serif;
+    color: #E6E6FA;
+}
+
+.company-name{
+    font-size: 1.2em;
+    font-family: "Marcellus", serif;
+    font-weight: 800;
+    color: #A9A9A9;
+}
+
+.timeline{
+    font-size: 1.2em;
+    font-family: "Marcellus", serif;
+    font-weight: 500;
+    color: #A9A9A9;
+}
+
+.links{
+    display: inline;
+    font-family: "Marcellus", serif;
+    font-size: 1em;
+    text-decoration: underline;
+    color: #20B2AA;
+}
+
+@media screen and (width <= 576px) {
+
+    .heading{
+        font-size: 1.5em;
+    }
+
+    .box{
+        border: none;
+        width: 85%;
+    }
+
+    .head{
+        font-size: 1em;
+    }
+
+    .lines{
+        font-size: 0.8em;
+    }
+
+    .company-name{
+        font-size: 0.75em;
+    }
+    
+    .timeline{
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (576px <= width <= 768px) {
+
+    .heading{
+        font-size: 1.8em;
+    }
+
+    .box{
+        border: none;
+        width: 80%;
+    }
+
+    .head{
+        font-size: 1.2em;
+    }
+
+    .lines{
+        font-size: 0.9em;
+    }
+
+    .company-name{
+        font-size: 0.8em;
+    }
+    
+    .timeline{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (768px <= width <= 992px) {
+
+    .heading{
+        font-size: 2.1em;
+    }
+
+    .box{
+        border: none;
+        width: 75%;
+    }
+
+    .head{
+        font-size: 1.4em;
+    }
+
+    .lines{
+        font-size: 1em;
+    }
+
+    .company-name{
+        font-size: 0.9em;
+    }
+    
+    .timeline{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (992px <= width <= 1200px) {
+    .heading{
+        font-size: 2.4em;
+    }
+
+    .box{
+        border-left: 3px solid #B0C4DE;
+        width: 70%;
+    }
+
+    .head{
+        font-size: 1.6em;
+    }
+
+    .lines{
+        font-size: 1.1em;
+    }
+
+    .company-name{
+        font-size: 1em;
+    }
+    
+    .timeline{
+        font-size: 1em;
+    }
+    
+}
+
+@media screen and (1200px <= width <= 1300px) {
+    .heading{
+        font-size: 2.7em;
+    }
+
+    .box{
+        border-left: 3px solid #B0C4DE;
+        width: 65%;
+    }
+
+    .head{
+        font-size: 1.8em;
+    }
+
+    .lines{
+        font-size: 1.2em;
+    }
+
+    .company-name{
+        font-size: 1.1em;
+    }
+    
+    .timeline{
+        font-size: 1.1em;
+    }
+    
+}
+
+@media screen and (1300px <= width <= 1400px) {
+    .heading{
+        font-size: 3em;
+    }
+
+    .box{
+        border-left: 3px solid #B0C4DE;
+        width: 65%;
+    }
+
+    .head{
+        font-size: 2em;
+    }
+    
+    .lines{
+        font-size: 1.3em;
+    }
+
+    .company-name{
+        font-size: 1.2em;
+    }
+    
+    .timeline{
+        font-size: 1.2em;
+    }
+}

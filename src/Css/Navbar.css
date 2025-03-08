@@ -1,0 +1,109 @@
+.logo{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(0, 48, 48, 0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 5em;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.name{
+    font-size: 2em;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4682B4;
+    cursor: pointer;
+}
+
+.toggle-btn{
+    background-color: transparent;
+    border: none;
+    color: #E6E6FA;
+    transition: 0.3s;
+}
+
+.toggle-btn::before{
+    transition: 0.3s;
+}
+
+.toggle{
+    font-size: 1.5em;
+}
+
+.toggle:hover{
+    cursor: pointer;
+}
+
+.bar{
+    right: -450px;
+    background-color: rgba(0, 65, 65, 0.6);
+    border-radius: 5em;
+    backdrop-filter: blur(20px);
+}
+
+.route{
+    font-family: "Marcellus", serif;
+    font-size: 1.1em;
+    color: #E6E6FA;
+    text-decoration: none;
+    border-radius: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.route:hover{
+    color: #E6E6FA;
+    background-color: rgba(0, 48, 48, 0.6);
+    text-decoration: none;
+}
+
+.hovered{
+    color: #E6E6FA;
+    background-color: rgba(0, 48, 48, 0.6);
+}
+
+@media screen and (width <= 356px) {
+
+    .route{
+        font-size: 0.75em;
+    }
+    
+}
+
+@media screen and (356px <= width <= 576px) {
+
+    .route{
+        font-size: 0.85em;
+    }
+    
+}
+
+@media screen and (576px <= width <= 768px) {
+
+    .route{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (768px <= width <= 992px) {
+
+    .route{
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (992px <= width <= 1200px) {
+
+    .route{
+        font-size: 1.1em;
+    }
+    
+}

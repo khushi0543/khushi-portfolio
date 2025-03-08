@@ -1,0 +1,239 @@
+.home{
+    height: fit-content;
+}
+
+.headline{
+    font-family: "Kalnia", serif;
+    color: rgb(94, 94, 0);
+    font-size: 2em;
+}
+
+.col1{
+    border-radius: 3em;
+    height: fit-content;
+    transition: 0.3s;
+}
+
+.hv-home-col1-div1{
+    font-family: "Kalnia", serif;
+    color: #BC8F8F;
+    font-size: 3em;
+}
+
+.my-full-name{
+    color: #20B2AA;
+    display: inline-block;
+}
+
+.hv-home-col1-div2{
+    font-family: "Marcellus", serif;
+    color: #E6E6FA;
+    font-size: 1.5em;
+}
+
+.portfolio-btn{
+    font-size: 1em;
+    background-color: #4682B4;
+    color: #003400;
+    font-family: "Marcellus", serif;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+    border: 1px solid #4682B4;
+}
+
+.portfolio-btn:hover{
+    border: 1px solid #4682B4;
+    background: none;
+    color: #4682B4;
+}
+
+.social-networks{
+    width: fit-content;
+    height: 2em;
+}
+
+.icons{
+    color: #A9A9A9;
+}
+
+.circle{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #5F9EA0, #5F9EA0);
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+.circle:hover{
+    transform: scale(1.06);
+}
+
+#avatar{
+    width: 360px;
+    height: 310px;
+    position: absolute;
+    bottom: 0em;
+}
+
+@media screen and (width <= 356px) {
+
+    .hv-home-col1-div2{
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (356px <= width <= 576px) {
+
+    .hv-home-col1-div2{
+        font-size: 0.85em;
+    }
+
+}
+
+@media screen and (width <= 576px) {
+
+    .hv-home-col1-div1{
+        font-size: 1.8em;
+    }
+
+    .hv-home-col1-div2{
+        font-size: 0.9em;
+    }
+
+    .portfolio-btn{
+        font-size: 0.9em;
+    }
+
+    .social-networks{
+        width: fit-content;
+        height: 1.5em;
+    }
+
+    .network-img{
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .circle{
+        width: 200px;
+        height: 200px;
+    }
+    
+    #avatar{
+        width: 200px;
+        height: 172px;
+    }
+}
+
+@media screen and (576px < width < 768px) {
+
+    .hv-home-col1-div1{
+        font-size: 1.8em;
+    }
+
+    .hv-home-col1-div2{
+        font-size: 1.1em;
+    }
+
+    .circle{
+        width: 240px;
+        height: 240px;
+    }
+    
+    #avatar{
+        width: 240px;
+        height: 207px;
+    }
+}
+
+@media screen and (768px < width < 992px) {
+
+    .hv-home-col1-div1{
+        font-size: 2em;
+    }
+
+    .hv-home-col1-div2{
+        font-size: 1.1em;
+    }
+
+    .circle{
+        width: 270px;
+        height: 270px;
+    }
+    
+    #avatar{
+        width: 270px;
+        height: 232px;
+    }
+}
+
+@media screen and (992px < width < 1200px) {
+
+    .hv-home-col1-div1{
+        font-size: 2em;
+    }
+
+    .hv-home-col1-div2{
+        font-size: 1.1em;
+    }
+
+    .circle{
+        width: 315px;
+        height: 315px;
+    }
+    
+    #avatar{
+        width: 315px;
+        height: 271px;
+    }
+}
+
+@media screen and (1200px < width < 1300px) {
+
+    .hv-home-col1-div1{
+        font-size: 2.5em;
+    }
+
+    .hv-home-col1-div2{
+        font-size: 1.4em;
+    }
+
+    .circle{
+        width: 330px;
+        height: 330px;
+    }
+    
+    #avatar{
+        width: 330px;
+        height: 284px;
+    }
+}
+
+@media screen and (1300px < width < 1400px) {
+
+    .hv-home-col1-div1{
+        font-size: 2.6em;
+    }
+
+    .hv-home-col1-div2{
+        font-size: 1.45em;
+    }
+
+    .circle{
+        width: 340px;
+        height: 340px;
+    }
+    
+    #avatar{
+        width: 3040px;
+        height: 500px;
+    }
+}
