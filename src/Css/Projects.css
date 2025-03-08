@@ -1,0 +1,40 @@
+.projects{
+    margin-bottom: 100px;
+}
+
+.project{
+    width: 300px;
+    height: 240px;
+    border-radius: 1em;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.project:hover{
+    transform: scale(1.06);
+}
+
+.image-box{
+    width: 100%;
+    height: 70%;
+    border-radius: 1em;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+    background-color: #1f2224;
+    opacity: 0.9;
+}
+
+.project-name{
+    font-family: "Kalnia", serif;
+    color: #E6E6FA;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.project-name:hover{
+    text-decoration: underline;
+}

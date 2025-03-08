@@ -1,0 +1,99 @@
+.skill-box{
+    border-radius: 1em;
+    background-color: rgba(0, 91, 91, 0.20);
+}
+
+.skill-secction-name{
+    color: #BC8F8F;
+    font-size: 1.5em;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skill-name{
+    margin: 0.5em;
+    font-family: "Marcellus", serif;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 1.5em;
+    width: fit-content;
+    background: none;
+    color: #4682B4;
+    transition: 0.3s;
+    border: 1px solid #4682B4;
+}
+
+.skill-name:hover{
+    transform: scaleX(1.2);
+}
+
+@media screen and (width <= 356px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 0.75em;
+    }
+    
+}
+
+@media screen and (356px <= width <= 576px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 0.75em;
+    }
+    
+}
+
+@media screen and (576px <= width <= 768px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (768px <= width <= 992px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 0.85em;
+    }
+    
+}
+
+@media screen and (992px <= width <= 1200px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 0.9em;
+    }
+    
+}
+
+@media screen and (1200px <= width <= 1300px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 0.95em;
+    }
+    
+}
+
+@media screen and (1300px <= width <= 1400px) {
+
+    .skill-name{
+        margin: 0.5em;
+        padding: 1em;
+        font-size: 1em;
+    }
+    
+}
