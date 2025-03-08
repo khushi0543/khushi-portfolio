@@ -41,7 +41,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },"homepage": "https://github.com/khushi0543/khushi-portfolio",
+  },"homepage": "https://khushi0543.github.io/khushi-portfolio"
+,
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
