@@ -111,7 +111,7 @@ function About() {
           <div className="container d-flex justify-content-center align-items-center">
             <a
               className="portfolio-btn ps-3 pe-3 p-xxl-3 p-xl-3 p-lg-2 p-md-3 p-sm-2 p-2"
-              href="https://drive.google.com/file/d/1E2hLM1Hj8PYJreRihq6zN3vyX-6wdM2v/view?usp=sharingk"
+              href="https://drive.google.com/file/d/1E2hLM1Hj8PYJreRihq6zN3vyX-6wdM2v/view?usp=sharing"
             >
               My Resume
             </a>
