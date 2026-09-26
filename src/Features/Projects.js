@@ -5,7 +5,7 @@ function Projects() {
   const projects = [
     // {name:'IOS Application',link:'https://github.com/Group3RepairMate/RepairMate',img:'ios-featured.png'},
     // {name:'MERN Application',link:'   ',img:'mern-1.png'},
-    {name:'My Portfolio',link:'https://github.com/harshil3662/AccessHarshil.git',img:'portfolio.png'},
+    {name:'My Portfolio',link:'https://khushi-portfolio-83pn.vercel.app',img:'portfolio.png'},
     {name:'Online gift Shop',link:'https://github.com/khushi0543/Online-Gift-shop',img:'giftshop.png'},
     // {name:'Crypto Wallet',link:'https://github.com/harshil3662/crypto-wallet.git',img:'wallet.png'},
     // {name:'Docker & Kubernetes',link:'https://github.com/harshil3662/building-scalable-app.git',img:'dk.png'},
