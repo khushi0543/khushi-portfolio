@@ -53,28 +53,30 @@ function About() {
             <div className="container d-flex justify-content-center align-items-center">
               <div className="box">
                 <div className="lines ps-4 pt-1">
-                  I'm Khushi Mangukiya, a seasoned web developer with over 2 to
-                  3 years of professional with hands on experience specializing
-                  in designing and developing websites and web applications for
-                  diverse purposes. Throughout my career, I've honed my skills
-                  in various web development technologies, including React.js,
-                  Node.js, and more. My expertise lies in crafting innovative
-                  digital solutions that not only meet but exceed client
-                  expectations. I'm dedicated to staying updated with the latest
-                  trends and technologies in the field to deliver cutting-edge
-                  projects. Take a look on my tech skills{" "}
+                 I'm Khushi Mangukiya, an aspiring web developer with a strong
+foundation in designing and developing websites and web
+applications. I hold a Bachelor's degree in Computer Applications
+(BCA) and am currently pursuing my Master's in Computer
+Applications (MCA), currently in my 2nd year, from Shree Swami
+Atmanand Saraswati Institute of Technology (SSASIT). Over the
+course of my academic journey, I've developed a solid skill set
+in modern web technologies, including React.js, Node.js, and
+more. I'm committed to continuously learning and staying updated
+with the latest industry trends to build efficient and
+user-friendly digital solutions. Take a look at my tech skills.{" "}
                   <Link className="links" to={"/skills"}>
                     here
                   </Link>
                   .<br />
                   <br />
-                  I'm a graduate of Smt. Tanuben & Dr. Manubhai Trivedi College
-                  of Information Science in Surat, where I honed my web
-                  development skills and brought my vision to life by creating
-                  websites. Through self-learning and formal education, I've
-                  acquired a diverse skill set. Leveraging these skills, I've
-                  developed numerous projects showcasing my expertise in web
-                  development. Explore my projects to see my work in action.{" "}
+               I believe in learning by building — every project I take up is an
+opportunity to solve real problems and sharpen my skills further.
+Alongside web development, I've also been exploring Artificial
+Intelligence, learning how AI tools and technologies can be
+integrated into modern applications to make them smarter and more
+efficient. I'm always exploring new tools and frameworks to keep
+improving as a developer. Explore my projects to see my work in
+action.{" "}
                   <Link className="links" to={"/projects"}>
                     here
                   </Link>
