@@ -33,8 +33,8 @@ function Home() {
                text-lg-center text-xl-start fw-normal'>Hello! I'm<br/><label className='my-full-name'>Khushi Mangukiya.</label>
               </div>
               <div className='m-xxl-5 m-xl-5 m-lg-4 m-md-4 m-sm-4 m-4 row hv-home-col1-div2 text-center text-sm-center text-md-center
-               text-lg-center text-xl-start'>I am a web application & MERN stack developer. I'm here to innovate web development
-                turning ideas into creative and real solutions.
+               text-lg-center text-xl-start'>  I am a Software Developer passionate about building web applications and creating practical solutions.
+  I enjoy turning ideas into modern, user-friendly, and efficient software.
               </div>
               <div className='m-xxl-5 m-xl-5 m-lg-4 m-md-4 m-sm-4 m-4 d-flex justify-content-center justify-content-sm-center
                justify-content-md-center justify-content-lg-center justify-content-xl-start align-items-center'>
