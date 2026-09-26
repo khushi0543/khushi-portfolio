@@ -3,26 +3,30 @@ import '../Css/Skills.css'
 
 function Skills() {
   const skills = [
-    {
-      name: 'Frontend',
-      skills: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React.js']
-    },
-    {
-      name: 'Backend',
-      skills: ['PHP', 'Node.js', 'Express.js', 'Django', 'Flask']
-    },
-    {
-      name: 'Database',
-      skills: ['MySQL', 'MongoDB', 'PostgreSQL']
-    },
-    {
-      name: 'Programming Languages',
-      skills: ['C', 'C++', 'Java', 'Python']
-    },
-    {
-      name: 'Other Technologies',
-      skills: ['Git', 'REST APIs']
-    }
+   {
+  name: 'Frontend',
+  skills: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap 5', 'React.js', 'Responsive Design']
+},
+{
+  name: 'Backend',
+  skills: ['PHP', 'Node.js', 'Express.js', 'REST APIs', 'FastAPI']
+},
+{
+  name: 'Database',
+  skills: ['MySQL', 'MongoDB', 'PostgreSQL']
+},
+{
+  name: 'Programming Languages',
+  skills: ['C', 'C++', 'Java', 'Python']
+},
+{
+  name: 'Tools & Technologies',
+  skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'JWT', 'API Development']
+},
+{
+  name: 'Core Concepts',
+  skills: ['OOP', 'DSA', 'DBMS', 'MVC', 'Operating Systems', 'Computer Networks']
+}
 ];
 
   const [screenSize, setScreenSize] = useState('');
